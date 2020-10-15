@@ -1,0 +1,5 @@
+export { default as Account } from './Account'
+export { default as Menu } from './Menu'
+export { default as Basket } from './Basket'
+export { default as About } from './About'
+export { default as Home } from './Home'
