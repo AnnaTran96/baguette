@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import { Navbar } from './components'
 import { Account, Menu, About, Basket, Home } from './pages'
+import { User } from './components'
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
        <Route path="/menu" component={Menu}/>
        <Route path="/basket" component={Basket}/>
        <Route path="/about" component={About}/>
+       <Route path="/home" component={User}/>
      </Switch>
      <footer>
         <p>
@@ -24,7 +26,7 @@ function App() {
           Contact Details
         </p>
         <p>
-          &copy; 2020 Bready
+          &copy; 2020 Vieguette’s
         </p>
         </footer>
     </div>
