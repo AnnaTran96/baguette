@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Login from '../components/Login'
+import Signup from '../components/Signup'
 
 
-const Account = () => {
-    return(
-        <>
-        
-        </>
-    )
+class Account extends Component {
+    
+    render() {
+        return(
+            <>
+                <Signup/>
+                <Login/> 
+            </>
+        )
+    }
+
 }
 
-export default Account;
+export default Account
