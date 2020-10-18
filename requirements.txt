@@ -1,0 +1,15 @@
+asgiref @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/7a/84/cb/7f7f5bab53d2d02226638573ba573c89ae5c9203ffeed237c3df238a2f/asgiref-3.2.10-py3-none-any.whl
+certifi @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/30/e0/fe/02be0b0d7bf5e7da8f0584a43b64890d8956bd395d188597ed45f16834/certifi-2020.6.20-py2.py3-none-any.whl
+chardet @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/c2/02/35/0d93b80c730b360c5e3d9bdc1b8d1929dbd784ffa8e3db025c14c045e4/chardet-3.0.4-py2.py3-none-any.whl
+Django @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/0e/fe/9f/25e3eb5779462c91fcff623c91ca1eb6c4dae19dce07d72580f28bd22b/Django-3.1.2-py3-none-any.whl
+djangorestframework @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/f5/b2/ec/027f4f8ff548a9ccfd9d1b412a78feb8eae69fa4b1b34735d218beb773/djangorestframework-3.12.1-py3-none-any.whl
+gunicorn @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/b5/fa/14/5790a1a5da3a5144bc505c39d8003baa6f64040928b75d0e0779683287/gunicorn-20.0.4-py2.py3-none-any.whl
+heroku @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/0b/26/f7/0772fd64d1a2d2579dee38b4797b6bd16cc060af36195b7cdc153ecaa7/heroku-0.1.4.tar.gz
+idna @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/9e/f9/03/6066b92d35486e7f0d4f310126e3c60a6619726e43ef98e32e105b5c52/idna-2.10-py2.py3-none-any.whl
+psycopg2-binary @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/d4/63/49/ec92d6a27456aca4a42a51b17ee5e38978993d1632525c7668db0e4b64/psycopg2_binary-2.8.6-cp38-cp38-macosx_10_9_x86_64.macosx_10_9_intel.macosx_10_10_intel.macosx_10_10_x86_64.whl
+python-dateutil @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/0a/47/32/fe003f1b70d3545d17c8f62480bbad99e8a24a6e9359cf49b55fe63a2a/python-dateutil-1.5.tar.gz
+pytz @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/0c/2d/6d/546b8b70e269f540d852d77ce42996d57e257db51c3c2fd37dd06e9421/pytz-2020.1-py2.py3-none-any.whl
+requests @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/1e/9a/75/03520154e60eb952530469162a6d43cd95ece92de272e2c3392058401c/requests-2.24.0-py2.py3-none-any.whl
+sqlparse @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/f6/9e/b8/b33d7ab31a08d0f94b260c990d807e12f38e0ffb105a4c2ca9ad9a6434/sqlparse-0.4.1-py3-none-any.whl
+urllib3 @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/f1/9d/c1/59337b0152731606a3af28776c812c0d0dc0f2a9066d7674911e9cbbd2/urllib3-1.25.10-py2.py3-none-any.whl
+whitenoise @ file:///Users/annatran/Library/Caches/pypoetry/artifacts/85/9d/ae/96bb78abce27b6862969fd9e72817c63580afa169b43960b46f8819c6e/whitenoise-5.2.0-py2.py3-none-any.whl
