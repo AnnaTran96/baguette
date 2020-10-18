@@ -1,0 +1,76 @@
+.banner {
+    width: 90vw;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+    left: 5%;
+    /* transform: translateX(-50%); */
+    opacity: 0.5;
+    filter: brightness(80%)
+}
+
+.home-heading {
+    font: 80px "Satisfy";
+    text-align: center;
+    margin: 100px 0 80px 0;
+}
+
+.home-sub {
+    position: relative;
+    top: -110px;
+    left: 53%;
+    font-size: 28px;
+}
+
+.home-sub:before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 35px;
+    background: #000000;
+    top: 50%;
+    left: -46px;
+}
+
+.home-sub:after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 35px;
+    background: #000000;
+    top: 50%;
+    left: 92px;
+}
+
+.home-headings {
+    position: absolute;
+    z-index: 1;
+    left: 44%;
+    top: 25%;
+}
+
+.icons {
+    position: fixed;
+    /* flex-direction: column; */
+    /* position: absolute; */
+    left: 2%;
+    top: 35%;
+
+}
+
+.fa-facebook-square, .fa-instagram {
+    font-size: 22px;
+    padding: 20px 0px;
+}
+
+.fa-facebook-square {
+    color: rgb(8, 52, 99);
+}
+
+.fa-instagram {
+    color: rgb(126, 17, 126);
+}
+
+.review-content {
+    padding: 20px 100px;
+}
