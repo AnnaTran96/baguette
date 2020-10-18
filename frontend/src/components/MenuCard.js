@@ -6,7 +6,6 @@ export class MenuCard extends Component {
 
     state = {
         data:[],
-        count: 0,
         total: 0
     }
 
@@ -21,21 +20,6 @@ export class MenuCard extends Component {
             .then((res) => res.json())
             .then(APIdata => this.setState({data: APIdata}))
             .catch(err => console.warn(err))
-    }
-
-    incrementCount = e => {
-        e.preventDefault()
-        this.setState({count: this.state.count + 1})
-    }
-
-    decrementCount = e => {
-        e.preventDefault()
-        this.setState({count: this.state.count - 1})
-    }
-
-    resetCount = e => {
-        e.preventDefault()
-        this.setState({count: 0})
     }
 
     render() {
