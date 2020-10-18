@@ -9,7 +9,7 @@ class Account extends Component {
         return(
             <>
                 <Signup/>
-                <Login/> 
+                <Login/>
             </>
         )
     }
