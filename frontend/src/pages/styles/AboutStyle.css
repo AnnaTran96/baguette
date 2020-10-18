@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
+
+.about-img-container img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-img-container {
+    position: relative;
+    left: 8%;
+}
+
+.about-container {
+    padding: 80px;
+}
+
+.about-heading {
+    font: 60px "Satisfy";
+    text-align: center;
+}
+
+.about-text {
+    font: 18px "Open Sans";
+    font-weight: 300;
+}
