@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Oswald';
+  overflow-x: hidden;
+}
+
+footer {
+  width: 100vw;
+  height: 190px;
+  background-color: rgb(57, 57, 57);
+  color: white;
+  padding: 2px 0px 38px 0px;
+  font-size: 18px;
+  /* position: relative;
+  bottom: 0; */
+}
+
+footer ul > li {
+  list-style: none;
+}
+
+.copyright {
+  position: relative;
+  left: 38px;
 }
