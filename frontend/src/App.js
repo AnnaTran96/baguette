@@ -19,13 +19,16 @@ function App() {
        <Route path="/home" component={User}/>
      </Switch>
      <footer>
-        <p>
-          Address
-        </p>
-        <p>
-          Contact Details
-        </p>
-        <p>
+        <ul className="address">
+            <li>78 Traill Street</li>
+            <li>ROSSINGTON</li>
+            <li>DN11 6JG</li>
+        </ul>
+        <ul className="contact">
+            <li>070 5200 0709</li>
+            <li>baguettes@vieguettes.com</li>
+        </ul>
+        <p className="copyright">
           &copy; 2020 Vieguette’s
         </p>
         </footer>
