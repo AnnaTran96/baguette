@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from 'react-router-dom'
 
 class Login extends Component {
   state = { username: "", password: "" };
@@ -33,7 +34,7 @@ class Login extends Component {
           this.setState({password: ""})
         } else {
           localStorage.setItem("token", data.token);
-          window.location = "/home";
+          this.props.history.push('/home')
         }
       })
 
@@ -78,4 +79,4 @@ class Login extends Component {
   }
 }
 
-export default Login
+export default withRouter(Login)
