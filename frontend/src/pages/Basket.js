@@ -1,4 +1,5 @@
 import React from 'react'
+import { BasketCard } from '../components'
 import { withRouter } from 'react-router-dom'
 
 const Basket = (props) => {
@@ -8,9 +9,11 @@ const Basket = (props) => {
         props.history.push('/account')
     }
 
+
     return (
         <div className="basket-container">
-            <button onClick={handleClick}>Pay Now</button>
+            <BasketCard/>
+            <button onClick={handleClick}>Pay Now</button> 
         </div>
     )
 }
