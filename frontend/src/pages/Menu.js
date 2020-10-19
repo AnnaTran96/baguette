@@ -1,10 +1,10 @@
 import React from 'react'
-import { MenuCard } from '../components'
+import { FoodCard } from '../components'
 
 const Menu = () => {
     return(
         <>
-        <MenuCard/>
+        <FoodCard/>
         </>
     )
 }
