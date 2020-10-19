@@ -24,6 +24,7 @@ export class Count extends Component {
                 <button onClick={this.handleCount.bind(this, "decrease")}>-</button>
                 <span>{count}</span>
                 <button onClick={this.handleCount.bind(this, "increase")}>+</button>
+
             </div>
         )
     }
