@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
+import './styles/CheckoutStyle.css'
 
 class Checkout extends Component {
 
@@ -27,9 +28,8 @@ class Checkout extends Component {
       
         return (
             <div className="checkout-container">
-                <p>Minimum spend £10</p>
-                <input type="checkbox" name="shipping" ref="shipping" onChange={this.handleChecked}/>
-                <span>Delivery costs: £2.99</span>
+                <span><input type="checkbox" name="shipping" ref="shipping" onChange={this.handleChecked}/>
+                Delivery costs: £2.99</span>
                 <p>Total Costs: £{parseFloat(this.props.total).toFixed(2)}</p>
             </div>
         )
