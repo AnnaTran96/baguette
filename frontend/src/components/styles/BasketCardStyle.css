@@ -47,6 +47,13 @@
     position: absolute;
 }
 
+.user-container h4 {
+    font: 30px "Open Sans";
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+}
+
 
 /* MEDIA QUERIES */
 
