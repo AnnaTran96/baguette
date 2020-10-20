@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import { removeItem, addQuantity, subtractQuantity } from '../action/basketAction'
 import Checkout from './Checkout'
+import './styles/BasketCardStyle.css'
 
 class BasketCard extends Component {
 
@@ -18,30 +19,35 @@ class BasketCard extends Component {
         this.props.subtractQuantity(id)
     }
 
+    handleClick = e => {
+        e.preventDefault()
+        this.props.history.push('/account')
+    }
+
     render() {
 
         let addedItems = this.props.items.length ? (
             this.props.items.map(item => {
                 return(
                     <li className="item-collection" key={item.id}>
+                        <h3 className="item-title">{item.name}</h3>
                         <div className="item-img">
                             <img src={item.imgSrc} alt={item.name}/>
                         </div>
                         <div className="description-container">
-                            <h3 className="item-title">{item.name}</h3>
                             <p>{item.ingredients}</p>
                             <p>£{parseFloat(item.price).toFixed(2)}</p>
                             <p>Quantity: {item.quantity}</p>
                         </div>
                         <div className="add-and-remove">
-                            <Link to="/basket" onClick={() => this.subtractQuantity(item.id)}>-</Link>
-                            <Link to="/basket" onClick={() => this.addQuantity(item.id)}>+</Link>
+                            <Link to="/basket" onClick={() => this.subtractQuantity(item.id)} className="subtract">-</Link>
+                            <Link to="/basket" onClick={() => this.addQuantity(item.id)} className="add">+</Link>
                         </div>
-                        <button className="deleteBtn" onClick={() => this.removeItem(item.id)}>x</button>
+                        <i className="fa fa-trash" aria-hidden="true" onClick={() => this.removeItem(item.id)}></i>
                     </li>
                 )
             })
-        ) : ( <p>Empty Basket</p>)
+        ) : ( <p className="empty-basket">Empty Basket</p>)
 
         return (
             <div className="basket-container">
@@ -70,4 +76,5 @@ const mDTP = dispatch => {
     }
 }
 
-export default connect(mSTP, mDTP)(BasketCard)
+export default withRouter(connect(mSTP, mDTP)(BasketCard)
+)
