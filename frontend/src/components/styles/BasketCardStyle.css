@@ -47,6 +47,10 @@
     position: absolute;
 }
 
+.fa-trash:hover {
+    cursor: pointer;
+}
+
 .user-container h4 {
     font: 30px "Open Sans";
     text-transform: capitalize;

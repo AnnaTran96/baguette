@@ -31,6 +31,10 @@
     margin: 20px 0;
 }
 
+.signupBtn:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 400px) {
     .formInput {
         width: 250px;
