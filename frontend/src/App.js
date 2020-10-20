@@ -32,10 +32,10 @@ function App() {
         <p className="copyright">
           &copy; 2020 Vieguette’s
         </p>
-        <ul className="footer-links">
+        {/* <ul className="footer-links">
           <li><Link to="/about">About</Link></li>
           <li><Link to="/menu">Menu</Link></li>
-        </ul>
+        </ul> */}
       </footer>
     </div>
   );
