@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
 
 body {
   margin: 0;
@@ -15,8 +16,6 @@ footer {
   color: white;
   padding: 2px 0px 38px 0px;
   font-size: 18px;
-  /* position: relative;
-  bottom: 0; */
 }
 
 footer ul > li {
@@ -26,4 +25,105 @@ footer ul > li {
 .copyright {
   position: relative;
   left: 38px;
+}
+
+.footer-links li {
+  list-style: none;
+  position: relative;
+}
+
+.payBtn {
+  position: relative;
+  font: 16px "Open Sans";
+  color: rgb(224, 47, 34);
+  background: transparent;
+  border: 2px solid rgb(224, 47, 34);
+  border-radius: 2rem;
+  padding: 8px 20px;;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20px 0;
+}
+
+.payBtn:hover {
+  cursor: pointer;
+}
+
+.message-container {
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+  .message-container h3 {
+    font-size: 20px;
+  }
+  .message-container p {
+    font-size: 18px;
+  }
+  .message-container {
+    width: 400px;
+    margin: 100px 0;
+  }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+  .message-container h3 {
+    font-size: 20px;
+  }
+  .message-container p {
+    font-size: 18px;
+  }
+  .message-container {
+    margin: 150px 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 620px) {
+  .message-container h3 {
+    font-size: 24px;
+  }
+  .message-container p {
+    font-size: 20px;
+  }
+  .message-container {
+    margin: 200px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .message-container h3 {
+    font-size: 24px;
+  }
+  .message-container p {
+    font-size: 20px;
+  }
+  .message-container {
+    margin: 200px 0;
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+  .message-container h3 {
+    font-size: 26px;
+  }
+  .message-container p {
+    font-size: 22px;
+  }
+  .message-container {
+    margin: 200px 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .message-container h3 {
+    font-size: 28px;
+  }
+  .message-container p {
+    font-size: 22px;
+  }
+  .message-container {
+    margin: 265px 0;
+  }
 }
