@@ -1,0 +1,73 @@
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px 0 40px 0;
+}
+
+.checkout-container p {
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 400px) {
+    .checkout-container span, .checkout-container p {
+        font: 16px "Open Sans";
+    }
+
+    .checkout-container p {
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+    .checkout-container span, .checkout-container p {
+        font: 16px "Open Sans";
+    }
+
+    .checkout-container p {
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    .checkout-container span, .checkout-container p {
+        font: 18px "Open Sans";
+    }
+
+    .checkout-container p {
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .checkout-container span, .checkout-container p {
+        font: 18px "Open Sans";
+    }
+
+    .checkout-container p {
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+    .checkout-container span, .checkout-container p {
+        font: 18px "Open Sans";
+    }
+
+    .checkout-container p {
+        font-weight: 800;
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    .checkout-container span, .checkout-container p {
+        font: 18px "Open Sans";
+    }
+
+    .checkout-container p {
+        font-weight: 800;
+    }
+} 
