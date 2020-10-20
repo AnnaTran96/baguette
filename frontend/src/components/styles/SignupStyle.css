@@ -1,0 +1,106 @@
+/* MEDIA QUERIES */
+
+.formInput {
+    border-bottom: 2px solid rgb(202, 202, 202);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    width: 250px;
+    padding: 10px 0;
+}
+
+.signupForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.signupBtn {
+    position: relative;
+    font: 16px "Open Sans";
+    color: rgb(224, 47, 34);
+    background: transparent;
+    border: 2px solid rgb(224, 47, 34);
+    border-radius: 2rem;
+    padding: 8px 20px;;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 400px) {
+    .formInput {
+        width: 250px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+    .formInput {
+        width: 250px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    .formInput {
+        width: 250px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .signupForm h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .formInput {
+        width: 320px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .signupForm h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+    .formInput {
+        width: 320px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .signupForm h3 {
+        font-size: 22px;
+    }
+
+    .signupForm {
+        left: -15%;
+        margin: 80px 0;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .formInput {
+        width: 340px;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .signupForm h3 {
+        font-size: 24px;
+    }
+
+    .signupForm {
+        left: -15%;
+        margin: 80px 0;
+    }
+}
