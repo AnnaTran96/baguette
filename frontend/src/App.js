@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Link } from 'react-router-dom'
 import { Navbar } from './components'
 import { Account, Menu, About, Basket, Home } from './pages'
 import { User, Payment, Message } from './components'
@@ -32,7 +32,11 @@ function App() {
         <p className="copyright">
           &copy; 2020 Vieguette’s
         </p>
-        </footer>
+        <ul className="footer-links">
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+        </ul>
+      </footer>
     </div>
   );
 }
