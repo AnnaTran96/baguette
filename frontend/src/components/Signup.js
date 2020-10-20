@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './styles/SignupStyle.css'
 
 class Signup extends Component {
   
@@ -51,7 +52,7 @@ class Signup extends Component {
           <div className="signupForm">
             <h3>New User? Register Below</h3>
             <form onSubmit={this.handleFormSubmit}>
-            <label htmlFor="username">Username</label>
+            {/* <label htmlFor="username">Username</label> */}
                 <input
                     className="formInput"
                     required
@@ -63,7 +64,7 @@ class Signup extends Component {
                     maxLength="20"
                 />
                 <br />
-                <label htmlFor="email">Email</label>
+                {/* <label htmlFor="email">Email</label> */}
                 <input
                     className="formInput"
                     required
@@ -74,20 +75,19 @@ class Signup extends Component {
                     onChange={this.handleInput}
                 />
                 <br />
-                <label htmlFor="Password">Password</label>
+                {/* <label htmlFor="Password">Password</label> */}
                 <input
                     className="formInput"
                     required
                     type="password"
                     name="password"
                     minLength="6"
-                    placeholder="Password"
+                    placeholder="Password (Minimum 6 characters)"
                     value={this.state.password}
                     onChange={this.handleInput}
                 />
-                <span>Minimum of 6 Characters</span>
                 <br />
-                <label htmlFor="Password">Confirm Password</label>
+                {/* <label htmlFor="Password">Confirm Password</label> */}
                 <input
                     className="formInput"
                     required
