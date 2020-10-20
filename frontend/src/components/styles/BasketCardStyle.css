@@ -1,0 +1,327 @@
+.item-collection {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.basket-container h4, .empty-basket, .item-title {
+    text-align: center;
+}
+
+.item-img img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.description-container p {
+    text-align: justify;
+}
+
+.add-and-remove {
+    position: absolute;
+}
+
+.add {
+    text-decoration: none;
+    border: 2px solid rgb(17, 97, 30);
+    border-radius: 50%;
+    color: rgb(17, 97, 30);
+}
+
+.subtract {
+    text-decoration: none;
+    border: 2px solid rgb(211, 23, 23);
+    border-radius: 50%;
+    color: rgb(211, 23, 23);
+}
+
+.add:hover, .subtract:hover {
+    font-weight: 600;
+}
+
+.fa-trash {
+    color: rgb(156, 9, 9);
+    position: absolute;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+    .item-img img {
+        width: 300px;
+    }
+
+    .basket-container h4 {
+        font: 22px "Open Sans";
+    }
+
+    .item-title {
+        font: 18px "Open Sans";
+    }
+
+    .description-container p {
+        font: 16px "Open Sans";
+        width: 280px;
+    }
+
+    .empty-basket {
+        font: 16px "Open Sans";
+    }
+
+    .item-collection {
+        width: 350px;
+    }
+
+    .add-and-remove a {
+        padding: 2px 10px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .add-and-remove {
+        bottom: 22%;
+        right: 10%;
+    }
+
+    .fa-trash {
+        font-size: 26px;
+        bottom: 22%;
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+    .item-img img {
+        width: 350px;
+    }
+
+    .basket-container h4 {
+        font: 22px "Open Sans";
+    }
+
+    .item-title {
+        font: 18px "Open Sans";
+    }
+
+    .description-container p {
+        font: 16px "Open Sans";
+        width: 280px;
+    }
+
+    .empty-basket {
+        font: 18px "Open Sans";
+    }
+
+    .item-collection {
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .add-and-remove a {
+        padding: 2px 10px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .add-and-remove {
+        bottom: 3%;
+        right: 10%;
+    }
+
+    .fa-trash {
+        font-size: 26px;
+        bottom: 3%;
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    .item-img img {
+        width: 350px;
+    }
+
+    .basket-container h4 {
+        font: 24px "Open Sans";
+    }
+
+    .item-title {
+        font: 22px "Open Sans";
+    }
+
+    .description-container p {
+        font: 18px "Open Sans";
+        width: 320px;
+    }
+
+    .empty-basket {
+        font: 22px "Open Sans";
+    }
+
+    .item-collection {
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .add-and-remove a {
+        padding: 2px 10px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .add-and-remove {
+        bottom: 3%;
+        right: 10%;
+    }
+
+    .fa-trash {
+        font-size: 26px;
+        bottom: 3%;
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .item-img img {
+        width: 500px;
+    }
+
+    .basket-container h4 {
+        font: 24px "Open Sans";
+    }
+
+    .item-title {
+        font: 22px "Open Sans";
+    }
+
+    .description-container p {
+        font: 18px "Open Sans";
+        width: 480px;
+    }
+
+    .empty-basket {
+        font: 22px "Open Sans";
+    }
+
+    .item-collection {
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .add-and-remove a {
+        padding: 2px 10px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .add-and-remove {
+        bottom: 3%;
+        right: 0%;
+    }
+
+    .fa-trash {
+        font-size: 26px;
+        bottom: 3%;
+        right: -22%;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+    .item-img img {
+        width: 520px;
+    }
+
+    .basket-container h4 {
+        font: 24px "Open Sans";
+    }
+
+    .item-title {
+        font: 22px "Open Sans";
+        width: 400px;
+    }
+
+    .description-container p {
+        font: 18px "Open Sans";
+        width: 480px;
+    }
+
+    .empty-basket {
+        font: 22px "Open Sans";
+    }
+
+    .item-collection {
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .add-and-remove a {
+        padding: 2px 10px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .add-and-remove {
+        bottom: 3%;
+        right: 0%;
+    }
+
+    .fa-trash {
+        font-size: 26px;
+        bottom: 3%;
+        right: -22%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .item-img img {
+        width: 520px;
+    }
+
+    .basket-container h4 {
+        font: 26px "Open Sans";
+    }
+
+    .item-title {
+        font: 22px "Open Sans";
+        width: 400px;
+    }
+
+    .description-container p {
+        font: 18px "Open Sans";
+        width: 480px;
+    }
+
+    .empty-basket {
+        font: 24px "Open Sans";
+    }
+
+    .item-collection {
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .add-and-remove a {
+        padding: 2px 10px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .add-and-remove {
+        bottom: 3%;
+        right: 0%;
+    }
+
+    .fa-trash {
+        font-size: 26px;
+        bottom: 3%;
+        right: -22%;
+    }
+}
