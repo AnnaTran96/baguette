@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './styles/MenucardStyle.css'
+// import './styles/MenucardStyle.css'
 import Count from './Count'
 
 export class MenuCard extends Component {
