@@ -101,6 +101,7 @@
         font: 18px "Open Sans";
         margin: 20px 60px;
         left: 20px;
+        font-weight: 300;
     }
 }
 
@@ -146,6 +147,7 @@
         font: 18px "Open Sans";
         margin: 20px 60px;
         left: 20px;
+        font-weight: 300;
     }
 }
 
@@ -191,6 +193,7 @@
         font: 16px "Open Sans";
         margin: 20px 60px;
         left: 20px;
+        font-weight: 300;
     }
 }
 
@@ -236,6 +239,7 @@
         font: 16px "Open Sans";
         margin: 20px 60px;
         left: 15px;
+        font-weight: 300;
     }
 }
 
@@ -281,6 +285,7 @@
         font: 17px "Open Sans";
         margin: 20px 70px;
         left: 0px;
+        font-weight: 300;
     }
 }
 
@@ -326,5 +331,6 @@
         font: 17px "Open Sans";
         margin: 20px 70px;
         left: 0px;
+        font-weight: 300;
     }
 }
