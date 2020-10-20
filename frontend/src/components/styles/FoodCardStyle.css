@@ -1,0 +1,36 @@
+.foodcard-wrapper {
+    padding: 80px;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.foodcard {
+    width: 300px;
+}
+
+.food-img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.food-heading {
+    text-align: center;
+    font: 50px "Satisfy";
+    margin-bottom: 100px;
+}
+
+.food-name, .ingredients, .price {
+    text-align: center;
+}
+
+.addBtn {
+    position: relative;
+    left: 43%;
+}
