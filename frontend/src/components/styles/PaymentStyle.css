@@ -1,0 +1,163 @@
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.payment-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 400px) {
+    .payment-container > form > label {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .payment-input {
+        font-size: 16px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .payment-container h2 {
+        font-size: 30px;
+    }
+
+    .payment-container p {
+        font-size: 20px;
+    }
+
+    .payment-input {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+    .payment-container > form > label {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .payment-input {
+        font-size: 16px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .payment-container h2 {
+        font-size: 30px;
+    }
+
+    .payment-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    .payment-container > form > label {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .payment-input {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .payment-container h2 {
+        font-size: 34px;
+    }
+
+    .payment-container p {
+        font-size: 22px;
+    }
+    
+    .payment-container {
+        margin-bottom: 20px;;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .payment-container > form > label {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .payment-input {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .payment-container h2 {
+        font-size: 34px;
+    }
+
+    .payment-container p {
+        font-size: 22px;
+    }
+    
+    .payment-container {
+        margin-bottom: 20px;;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+    .payment-container > form > label {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .payment-input {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 20px;
+        width: 260px;
+    }
+
+    .payment-container h2 {
+        font-size: 34px;
+    }
+
+    .payment-container p {
+        font-size: 22px;
+    }
+    
+    .payment-container {
+        margin-bottom: 20px;;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .payment-container > form > label {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .payment-input {
+        font-size: 18px;
+        margin-left: 20px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .payment-container h2 {
+        font-size: 34px;
+    }
+
+    .payment-container p {
+        font-size: 22px;
+    }
+    
+    .payment-container {
+        margin-bottom: 20px;;
+    }
+}
