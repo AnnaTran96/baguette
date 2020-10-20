@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from 'react-router-dom'
+import './styles/LoginStyle.css'
 
 class Login extends Component {
   state = { username: "", password: "" };
@@ -45,27 +46,27 @@ class Login extends Component {
     return (
       <div className="login-container">
         <div className="loginPageContainer">
-          <h3>Returning Customer? Log in below</h3>
+          <h3>Returning Customer? Log In Below</h3>
           <div className="loginFormContainer">
             <form autoComplete="disabled" onSubmit={this.handleFormSubmit}>
-                <label htmlFor="Username">Username</label>
+                {/* <label htmlFor="Username">Username</label> */}
                 <input
                     required
                     autoComplete="disabled"
                     className="formInput"
                     type="text"
                     name="username"
-                    placeholder="username"
+                    placeholder="Username"
                     onChange={this.handleInput}
                 />
                 <br />
-                <label htmlFor="password">Password</label>
+                {/* <label htmlFor="password">Password</label> */}
                 <input
                     required
                     className="formInput"
                     type="password"
                     name="password"
-                    placeholder="password"
+                    placeholder="Password"
                     value={this.state.password}
                     onChange={this.handleInput}
                 />
