@@ -3,9 +3,9 @@ import { FoodCard } from '../components'
 
 const Menu = () => {
     return(
-        <>
+        <div className="menu-wrapper">
         <FoodCard/>
-        </>
+        </div>
     )
 }
 

@@ -23,7 +23,7 @@ const Payment = (props) => {
                    <input type="text" for="card-expiry" placeholder="00/00" maxLength="5"/>
                </label>
            </form>
-        <button onClick={handleClick}>Pay Now</button>
+        <button onClick={handleClick} className="payBtn">Pay Now</button>
        </div>
     )
 }

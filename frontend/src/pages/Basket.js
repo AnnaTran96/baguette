@@ -13,7 +13,7 @@ const Basket = (props) => {
     return (
         <div className="basket-container">
             <BasketCard/>
-            <button onClick={handleClick}>Pay Now</button> 
+            <button onClick={handleClick} className="payBtn">Pay Now</button> 
         </div>
     )
 }
