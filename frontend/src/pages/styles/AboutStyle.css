@@ -1,26 +1,226 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
-
 .about-img-container img {
-    width: 500px;
     height: 300px;
     object-fit: cover;
 }
 
-.about-img-container {
+.about-img-container, .about-text{
     position: relative;
-    left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-container {
-    padding: 80px;
+    /* padding: 80px; */
 }
 
 .about-heading {
-    font: 60px "Satisfy";
     text-align: center;
+    position: relative;
 }
 
 .about-text {
-    font: 18px "Open Sans";
-    font-weight: 300;
+    text-align: justify;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+    .about-img-container img {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .baguette-img2 {
+       display: none;
+    }
+    
+    .about-img-container {
+        margin: -5%;
+        left: 6%;
+        flex-direction: column;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-heading {
+        font: 60px "Satisfy";
+        left: 10%;
+    }
+    
+    .about-text {
+        font: 18px "Open Sans";
+        font-weight: 300;
+        left: 55%;
+        transform: translateX(-50%);
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+    .about-img-container img {
+        width: 360px;
+        margin-bottom: 10px;
+    }
+
+    .baguette-img2 {
+       display: none;
+    }
+    
+    .about-img-container {
+        left: 5%;
+        flex-direction: column;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-heading {
+        font: 60px "Satisfy";
+        left: 6%;
+    }
+    
+    .about-text {
+        font: 17px "Open Sans";
+        font-weight: 300;
+        left: 55%;
+        transform: translateX(-50%);
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 620px) {
+    .about-img-container img {
+        width: 300px;
+        margin: 0 5px 10px 5px;
+    }
+
+    .baguette-img2 {
+       display: none;
+    }
+    
+    .about-img-container {
+        left: 3%;
+        flex-direction: row;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-heading {
+        font: 60px "Satisfy";
+        left: 6%;
+    }
+    
+    .about-text {
+        font: 17px "Open Sans";
+        font-weight: 300;
+        left: 52%;
+        transform: translateX(-50%);
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .about-img-container img {
+        width: 250px;
+        margin: 0 5px 10px 5px;
+    }
+
+    .baguette-img2 {
+       display: block;
+    }
+    
+    .about-img-container {
+        left: 3%;
+        flex-direction: row;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-heading {
+        font: 60px "Satisfy";
+        left: 6%;
+    }
+    
+    .about-text {
+        font: 17px "Open Sans";
+        font-weight: 300;
+        left: 53%;
+        transform: translateX(-50%);
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1024px) {
+    .about-img-container img {
+        width: 400px;
+        margin: 0 5px 10px 5px;
+    }
+
+    .baguette-img2 {
+       display: block;
+    }
+    
+    .about-img-container {
+        left: 0%;
+        flex-direction: row;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-heading {
+        font: 60px "Satisfy";
+        left: 0%;
+    }
+    
+    .about-text {
+        font: 17px "Open Sans";
+        font-weight: 300;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .about-img-container img {
+        width: 500px;
+        margin: 0 5px 10px 5px;
+    }
+
+    .baguette-img2 {
+       display: block;
+    }
+    
+    .about-img-container {
+        left: 0%;
+        flex-direction: row;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
+    
+    .about-heading {
+        font: 60px "Satisfy";
+        left: 0%;
+    }
+    
+    .about-text {
+        font: 18px "Open Sans";
+        font-weight: 300;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80vw;
+    }
 }
