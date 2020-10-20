@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addToBasket } from '../action/basketAction'
+import './styles/FoodCardStyle.css'
 
-class Home extends Component {
+class FoodCard extends Component {
 
     handleClick = id => {
         this.props.addToBasket(id)
@@ -12,21 +13,25 @@ class Home extends Component {
 
         let items = this.props.items.map(item => {
             return(
-                <div className="menuCard" key={item.id}>
-                    <h3>{item.name}</h3>
-                    <img src={item.imgSrc} alt={item.name}/>
-                    <p>{item.ingredients}</p>
-                    <p>£{parseFloat(item.price).toFixed(2)}</p>
-                    <button to="/" onClick={() => this.handleClick(item.id)}>Add</button>
+                <div className="foodcard-container" key={item.id}>
+                    <div className="foodcard">
+                        <h3 className="food-name">{item.name}</h3>
+                        <img src={item.imgSrc} alt={item.name} className="food-img"/>
+                        <p className="ingredients">{item.ingredients}</p>
+                        <p className="price">£{parseFloat(item.price).toFixed(2)}</p>
+                        <button to="/" onClick={() => this.handleClick(item.id)} className="addBtn">Add</button>
+                    </div>
                 </div>
             )
         })    
 
         return (
-            <div className="home-container">
-                <h1>Vietguette's</h1>
-                {items}
-            </div>
+            <>
+            <h1 className="food-heading">Menu</h1>
+                <div className="items-container">
+                    {items}
+                </div>
+            </>
         )
     }
 }
@@ -43,4 +48,4 @@ const mDTP = dispatch => {
     }
 }
 
-export default connect(mSTP, mDTP)(Home);
+export default connect(mSTP, mDTP)(FoodCard);
