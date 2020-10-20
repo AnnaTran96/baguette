@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Actions should create an action to add to the basket 1`] = `Array []`;
+
+exports[`Actions should increase quantity of item 1`] = `Array []`;
