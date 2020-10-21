@@ -25,7 +25,7 @@ class Login extends Component {
     };
     console.log(options);
 
-    fetch("http://localhost:8000/token-auth/", options)
+    fetch("https://vieguettes.herokuapp.com/token-auth/", options)
       .then((res) => res.json())
       .then((data) => {
         if (

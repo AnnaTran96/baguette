@@ -17,7 +17,7 @@ export class MenuCard extends Component {
             headers: { "Content-type": "application/json"}
         }
 
-        fetch('http://localhost:8000/menu', options)
+        fetch('https://vieguettes.herokuapp.com/menu', options)
             .then((res) => res.json())
             .then(APIdata => this.setState({data: APIdata}))
             .catch(err => console.warn(err))

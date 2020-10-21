@@ -7,7 +7,7 @@ class User extends Component {
     username: "null",
   };
   componentDidMount() {
-    fetch("http://localhost:8000/current_user/", {
+    fetch("https://vieguettes.herokuapp.com/current_user/", {
       headers: {
         Authorization: `JWT ${localStorage.getItem("token")}`,
       },

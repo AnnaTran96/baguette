@@ -25,7 +25,7 @@ class Signup extends Component {
         body: JSON.stringify(userData),
       };
 
-      fetch("http://localhost:8000/users/", options)
+      fetch("https://vieguettes.herokuapp.com/users/", options)
         .then((res) => res.json())
         .then((data) => {
           if (
