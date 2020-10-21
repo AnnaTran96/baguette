@@ -10,16 +10,20 @@ const About = () => {
                 <img src="https://images.unsplash.com/photo-1456765447332-d79762cdcbe4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1488&q=80" alt="Baguette" className="baguette-img2"></img>
             </div>
             <h1 className="about-heading">About Us</h1>
-            <p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
+            <p className="about-text">Our aim is to deliver food that makes everyone happy.</p>
+            <p className="about-text"> We do our best to reflect this with authentic, delicious and healthy food that we prepare freshly everyday.</p> 
+            <p className="about-text">Our food consists of a variety of baguette flavours from different cuisines around the world.</p>
+            <p className="about-text"> We use regional ingredients so we can deliver the best flavours for our customers.
             </p>
-            <p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
+            <p className="about-text">We opt out on using ingredients that have high sodium.</p>
+            <p className="about-text"> We want to create baguettes that have less sodium and more nutrients which makes the baguettes more lighter, easy to digest but filling at the same time.</p>
+            <p className="about-text">All our baguettes are made with white flour imported from Italy.</p>
+            <p className="about-text"> We directly buy our ingredients from several small independent producers and we only use the best local suppliers.
             </p>
-            <p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
+            <p className="about-text">Every single baguette is handmade with love and patience by our bakers.</p> 
+            <p className="about-text">Our menu is suitable for vegetarians.</p>
+            <p className="about-text">Special variations and dairy free options are available upon request.
             </p>
-            <p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
-            </p>
-
-
         </div>
     )
 }
