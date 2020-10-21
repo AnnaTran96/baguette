@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './styles/HomeStyle.css'
 
 const Home = () => {
@@ -10,20 +11,29 @@ const Home = () => {
             </div>
             <img src="https://images.unsplash.com/photo-1509722747041-616f39b57569?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" className="banner" alt="Banner"/>
             <div className="icons">
-            <i className="fa fa-facebook-square" aria-hidden="true"></i><br/>
-            <i className="fa fa-instagram" aria-hidden="true"></i>
+            <a href="#"><i className="fa fa-facebook-square" aria-hidden="true"></i></a><br/>
+            <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
-            <div className="reviews">
-            <p className="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
-            </p>
-            <p className="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
-            </p>
-            <p className="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
-            </p>
-            <p className="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
-            </p>
-            <p className="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris rhoncus aenean vel elit scelerisque mauris. Congue mauris rhoncus aenean vel. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Luctus accumsan tortor posuere ac ut consequat semper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vestibulum lorem sed risus ultricies tristique. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Nisi est sit amet facilisis magna. Laoreet sit amet cursus sit. Arcu dui vivamus arcu felis bibendum ut tristique. Diam sollicitudin tempor id eu.
-            </p>
+            <div className="content">
+                <h1 className="open">We are open!</h1>
+                <ul className="opening-hours">
+                    <li>Opening Hours:</li>
+                    <li>Mon - Fri: 12pm - 2:30pm 5:30pm - 10:30pm</li>
+                    <li>Sat: 11pm - 10:30pm</li>
+                    <li>Sun: 12:30pm - 9pm</li>
+                </ul>
+                <p className="reservation-number">Reservation number: <br/><span className="phone-number">+44 2074596278</span></p>
+                <p className="email">baguettes@vieguettes.com</p>
+                <div className="about-menu">
+                    <div className="about-info-container">
+                        <p className="about-content">Authentic, delicious and healthy baguettes prepared freshly every day. It is our goal to combine the best ingredients to create these authentic baguettes. Vieguette's is th first baguette store in London to be serving a combination of different baguettes from different cuisines.</p>
+                        <Link to="/about" className="read-more">Read More</Link>
+                    </div>
+                    <div className="home-menu-container">
+                        <Link to="/menu"><img src="https://images.unsplash.com/photo-1530548091131-36336084c705?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Baguettes" className="menu-img"/></Link>
+                        <Link to="/menu" className="menucard-name"><h2 >Menu</h2></Link>
+                    </div>
+                </div>
             </div>
         </div>
     )
