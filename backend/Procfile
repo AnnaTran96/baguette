@@ -1,0 +1,2 @@
+web: gunicorn baguette.wsgi --log-file -
+web: python manage.py runserver
