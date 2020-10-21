@@ -26,7 +26,7 @@ const Home = () => {
                 <p className="email">baguettes@vieguettes.com</p>
                 <div className="about-menu">
                     <div className="about-info-container">
-                        <p className="about-content">Authentic, delicious and healthy baguettes prepared freshly every day. It is our goal to combine the best ingredients to create these authentic baguettes. Vieguette's is th first baguette store in London to be serving a combination of different baguettes from different cuisines.</p>
+                        <p className="about-content">Authentic, delicious and healthy baguettes prepared freshly every day. It is our goal to combine the best ingredients to create these authentic baguettes. Vieguette's is the first baguette store in London to be serving a combination of different baguettes from different cuisines.</p>
                         <Link to="/about" className="read-more">Read More</Link>
                     </div>
                     <div className="home-menu-container">
