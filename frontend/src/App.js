@@ -20,22 +20,28 @@ function App() {
        <Route path="/order_placed" component={Message}/>
      </Switch>
      <footer>
-        <ul className="address">
-            <li>78 Traill Street</li>
-            <li>ROSSINGTON</li>
-            <li>DN11 6JG</li>
-        </ul>
-        <ul className="contact">
-            <li>070 5200 0709</li>
-            <li>baguettes@vieguettes.com</li>
-        </ul>
-        <p className="copyright">
-          &copy; 2020 Vieguette’s
-        </p>
-        {/* <ul className="footer-links">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/menu">Menu</Link></li>
-        </ul> */}
+       <div className="left-footer">
+          <ul className="address">
+              <li>78 Traill Street</li>
+              <li>London</li>
+              <li>SE16 4ES</li>
+          </ul>
+          <ul className="contact">
+              <li>020 7459 6278</li>
+              <li>baguettes@vieguettes.com</li>
+          </ul>
+          <p className="copyright">
+            &copy; 2020 Vieguette’s
+          </p>
+        </div>
+        <div className="right-footer">
+          <ul className="footer-opening-hours">
+            <li>Opening Hours:</li>
+            <li>Mon - Fri: 12pm - 2:30pm | 5:30pm - 10:30pm</li>
+            <li>Sat: 11pm - 10:30pm</li>
+            <li>Sun: 12:30pm - 9pm</li>
+          </ul>
+        </div>
       </footer>
     </div>
   );
