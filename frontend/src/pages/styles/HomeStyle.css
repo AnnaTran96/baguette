@@ -57,6 +57,40 @@
     position: relative;
 }
 
+.opening-hours {
+    list-style: none;
+}
+
+/* .opening-hours li {
+    display: inline;
+} */
+
+.phone-number {
+    color: rgb(182, 32, 32);
+}
+
+.read-more, .menucard-name {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-img {
+    object-fit: cover;
+    /* opacity: 0.7; */
+}
+
+.read-more {
+    position: relative;
+}
+
+.read-more:hover {
+    cursor: pointer;
+}
+
+.menucard-name {
+    position: absolute;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 400px) {
@@ -96,12 +130,53 @@
     .icons {
         left: 6%;
     }
-    
-    .review-content {
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         font: 18px "Open Sans";
-        margin: 20px 60px;
-        left: 20px;
         font-weight: 300;
+    }
+
+    .opening-hours li {
+        text-align: center;
+    }
+
+    .menu-img {
+        width: 280px;
+        height: 300px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+
+    .about-content {
+        text-align: justify;
+        width: 280px;
+    }
+
+    .read-more {
+        left: 35%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-menu-container {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menucard-name {
+        color: white;
+        background: rgba(236, 236, 236, 0.527);
+        padding: 0 30px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
 
@@ -143,11 +218,52 @@
         left: 6%;
     }
     
-    .review-content {
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         font: 18px "Open Sans";
-        margin: 20px 60px;
-        left: 20px;
         font-weight: 300;
+    }
+
+    .opening-hours li {
+        text-align: center;
+    }
+
+    .menu-img {
+        width: 340px;
+        height: 340px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+
+    .about-content {
+        text-align: justify;
+        width: 320px;
+    }
+
+    .read-more {
+        left: 35%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-menu-container {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menucard-name {
+        color: white;
+        background: rgba(236, 236, 236, 0.527);
+        padding: 0 30px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
 
@@ -189,11 +305,52 @@
         left: 6%;
     }
     
-    .review-content {
-        font: 16px "Open Sans";
-        margin: 20px 60px;
-        left: 20px;
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font: 18px "Open Sans";
         font-weight: 300;
+    }
+
+    .opening-hours li {
+        text-align: center;
+    }
+
+    .menu-img {
+        width: 340px;
+        height: 340px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+
+    .about-content {
+        text-align: justify;
+        width: 320px;
+    }
+
+    .read-more {
+        left: 35%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-menu-container {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menucard-name {
+        color: white;
+        background: rgba(236, 236, 236, 0.527);
+        padding: 0 30px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
 
@@ -235,11 +392,70 @@
         left: 2%;
     }
     
-    .review-content {
-        font: 16px "Open Sans";
-        margin: 20px 60px;
-        left: 15px;
+    .content {
+        font: 18px "Open Sans";
         font-weight: 300;
+        text-align: center;
+    }
+
+    .opening-hours li {
+        text-align: center;
+        display: inline;
+        padding: 12px;
+    }
+
+    .menu-img {
+        width: 340px;
+        height: 290px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+
+    .about-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .about-content {
+        text-align: justify;
+    }
+
+    .about-info-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 30px;
+        width: 360px;
+        margin: 0 30px;
+    }
+
+    .read-more {
+        left: 15%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-menu-container {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menucard-name {
+        color: white;
+        background: rgba(236, 236, 236, 0.527);
+        padding: 0 30px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
 
@@ -281,11 +497,71 @@
         left: 2%;
     }
     
-    .review-content {
-        font: 17px "Open Sans";
-        margin: 20px 70px;
-        left: 0px;
+    .content {
+        font: 18px "Open Sans";
         font-weight: 300;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .opening-hours li {
+        text-align: center;
+        display: inline;
+        padding: 12px;
+    }
+
+    .menu-img {
+        width: 340px;
+        height: 290px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+
+    .about-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .about-content {
+        text-align: justify;
+    }
+
+    .about-info-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 30px;
+        width: 360px;
+        margin: 0 30px;
+    }
+
+    .read-more {
+        left: 15%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-menu-container {
+        margin: 50px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menucard-name {
+        color: white;
+        background: rgba(236, 236, 236, 0.527);
+        padding: 0 30px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
 
@@ -327,10 +603,70 @@
         left: 2%;
     }
     
-    .review-content {
-        font: 17px "Open Sans";
-        margin: 20px 70px;
-        left: 0px;
+    .content {
+        font: 18px "Open Sans";
         font-weight: 300;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .opening-hours li {
+        text-align: center;
+        display: inline;
+        padding: 12px;
+    }
+
+    .menu-img {
+        width: 340px;
+        height: 290px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+
+    .about-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .about-content {
+        text-align: justify;
+    }
+
+    .about-info-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 30px;
+        width: 360px;
+        margin: 0 30px;
+    }
+
+    .read-more {
+        left: 15%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .home-menu-container {
+        margin: 50px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menucard-name {
+        color: white;
+        background: rgba(236, 236, 236, 0.527);
+        padding: 0 30px;
+        border: 1px solid transparent;
+        border-radius: 1rem;
     }
 }
