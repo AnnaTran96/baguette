@@ -11,8 +11,8 @@ const Home = () => {
             </div>
             <img src="https://images.unsplash.com/photo-1509722747041-616f39b57569?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" className="banner" alt="Banner"/>
             <div className="icons">
-            <a href="#"><i className="fa fa-facebook-square" aria-hidden="true"></i></a><br/>
-            <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                <i className="fa fa-facebook-square" aria-hidden="true" rel="noopener noreferrer"></i><br/>
+                <i className="fa fa-instagram" aria-hidden="true" rel="noopener noreferrer"></i>
             </div>
             <div className="content">
                 <h1 className="open">We are open!</h1>
