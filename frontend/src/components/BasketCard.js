@@ -19,11 +19,6 @@ class BasketCard extends Component {
         this.props.subtractQuantity(id)
     }
 
-    handleClick = e => {
-        e.preventDefault()
-        this.props.history.push('/account')
-    }
-
     render() {
 
         let addedItems = this.props.items.length ? (

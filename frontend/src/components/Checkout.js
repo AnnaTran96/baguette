@@ -5,11 +5,6 @@ import './styles/CheckoutStyle.css'
 
 class Checkout extends Component {
 
-    handleClick = e => {
-        e.preventDefault()
-        this.props.history.push('/account')
-    }
-
     handleChecked = e => {
         if(e.target.checked) {
             this.props.addShipping();
@@ -28,7 +23,7 @@ class Checkout extends Component {
       
         return (
             <div className="checkout-container">
-                <span><input type="checkbox" name="shipping" ref="shipping" onChange={this.handleChecked}/>
+                <span><input type="checkbox" name="shipping" ref="shipping" onChange={this.handleChecked} className="checked"/>
                 Delivery costs: £2.99</span>
                 <p>Total Costs: £{parseFloat(this.props.total).toFixed(2)}</p>
             </div>
