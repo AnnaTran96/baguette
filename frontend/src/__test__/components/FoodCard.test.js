@@ -1,31 +1,6 @@
 import FoodCard from '../../components/FoodCard';
 import React from 'react'
 import { shallow } from 'enzyme';
-import configureStore from 'redux-mock-store'
-
-// describe('FoodCard', () => {
-//     let wrapper;
-//     const mockStore = configureStore()
-//     let store;
-//     const initialState = {}
-//     store = mockStore(initialState)
-//     const props = {
-//         dispatch: jest.fn(),
-//         id: 1
-//     }
-
-//     beforeEach(() => {
-//         store = mockStore(initialState)
-//         wrapper = shallow(<FoodCard store={store} {...props}/>).dive();
-//     })
-
-//      test('it renders the title', () => {
-//        expect(wrapper.findWhere( n => n.type() === 'h1' && n.contains('Menu')))
-//     })
-
-
-   
-// });
 
 describe('FoodCard', () => {
     let component, addToBasket
