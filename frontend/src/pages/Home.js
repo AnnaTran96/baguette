@@ -18,7 +18,7 @@ const Home = () => {
                 <h1 className="open">We are open!</h1>
                 <ul className="opening-hours">
                     <li>Opening Hours:</li>
-                    <li>Mon - Fri: 12pm - 2:30pm 5:30pm - 10:30pm</li>
+                    <li>Mon - Fri: 12pm - 2:30pm | 5:30pm - 10:30pm</li>
                     <li>Sat: 11pm - 10:30pm</li>
                     <li>Sun: 12:30pm - 9pm</li>
                 </ul>
